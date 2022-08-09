@@ -1,13 +1,8 @@
 ---
-firstname: NICK
 lastname: GABLER
-website: nick.gabler.app
+website: gabler.app
 linklist:
-  Contact: mailto:nick@gabler.app
-  GitHub: https://github.com/ngabler
-  Instagram: https://www.instagram.com/swappiness0/
-  Linkedin: https://www.linkedin.com/in/nick-gabler-505b9453/
-  Twitter: https://twitter.com/swappiness0
+  Nick: https://nick.gabler.app
 ---
 <!doctype html>
 <html lang="en">
@@ -19,11 +14,10 @@ linklist:
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <link rel="preload" href="/fonts/jetbrains-mono.woff2" crossorigin="anonymous" as="font" type="font/woff2">
   <link rel="stylesheet" href="/css/main.css">
-  <title>{{ firstname }} {{ lastname }}</title>
+  <title>{{ lastname }}</title>
 </head>
 
 <body>
-  <h1>{{ firstname }}</h1><br>
   <h1>{{ lastname }}</h1><br>
   {% for link in linklist %}
   {% if forloop.last == true %}
