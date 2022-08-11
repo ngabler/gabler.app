@@ -1,0 +1,2 @@
+/*
+  Content-Security-Policy: default-src 'self' gabler.app *.gabler.app static.cloudflareinsights.com cloudflareinsights.com cloudflare.com *.cloudflare.com
