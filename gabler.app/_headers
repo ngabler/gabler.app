@@ -1,2 +1,6 @@
 /*
   Content-Security-Policy: default-src 'self' gabler.app *.gabler.app static.cloudflareinsights.com cloudflareinsights.com cloudflare.com *.cloudflare.com
+  Cache-Control: max-age=2629746, public
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1
+  access-control-allow-origin: *
