@@ -19,7 +19,7 @@ linklist:
     <h1 id="title">{{ lastname }}</h1>
     <div id="social-links">
         {% for link in linklist %}
-            <a href="{{ link[1] }}" target="_blank" data-text="{{ link[0] }}">{{ link[0] }}</a>
+            <a href="{{ link[1] }}" data-text="{{ link[0] }}">{{ link[0] }}</a>
         {% endfor %}
     </div>
     <script src="/scripts/main.js"></script>
