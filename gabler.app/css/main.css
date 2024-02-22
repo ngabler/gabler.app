@@ -1,11 +1,5 @@
-@font-face {
-  font-family: "JetBrains Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-}
-
 body {
+  font-family: 'JetBrains Mono';
   margin: 0;
   padding: 0;
   box-sizing: border-box;
